@@ -10,7 +10,13 @@ export default function Index() {
 
       }}
     >
-      <Text>Welcome</Text>
+      <Text
+        style={{
+          fontSize: 20,
+          fontWeight: "bold",
+          color: "red"
+        }}
+      >Welcome</Text>
     </View>
   );
 }
